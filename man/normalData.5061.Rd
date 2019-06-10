@@ -1287,7 +1287,6 @@ https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-5061/
 Segerstolpe, Å., Palasantza, A., Eliasson, P., Andersson, E.M., Andréasson, A.C., Sun, X., Picelli, S., Sabirsh, A., Clausen, M., Bjursell, M.K. and Smith, D.M., 2016. Single-cell transcriptome profiling of human pancreatic islets in health and type 2 diabetes. Cell metabolism, 24(4), pp.593-607.
 }
 \examples{
-data(normalData.5061)
-table(sub('\\.+[0-9]+$', '', colnames(normalData.5061)))
+cellCounts <- enumerateCellTypes(ADAPTSdata3::normalData.5061)
 }
 \keyword{datasets}
