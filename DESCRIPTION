@@ -1,0 +1,10 @@
+Package: ADAPTSdata3
+Type: Package
+Title: Data for the ADAPTS package second VIGNETTE
+Version: 0.1.0
+Author: Samuel A Danziger
+Maintainer: Samuel A Danziger <sam.danziger@gmail.com>
+Description: Data for the ADAPTS vignette
+License: MIT  + file LICENSE
+Encoding: UTF-8
+LazyData: true
