@@ -133,15 +133,9 @@ List of 3
   .. .. ..$ : chr [1:13] "acinar.cell" "alpha.cell" "beta.cell" "co.expression.cell" ...
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
-\references{
-%%  ~~ possibly secondary sources and usages ~~
+ADAPTS Vignette #2: Single Cell Analysis
 }
 \examples{
-ADAPTS Vignette #2: Single Cell Analysis
+summary(hier.top100)
 }
 \keyword{datasets}
